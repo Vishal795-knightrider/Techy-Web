@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+header {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav a {-
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.menu-selection {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.menu-categories {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category {
+    padding: 20px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.category:hover {
+    background-color: #495057;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.dish-list {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.dishes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.dish {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dish h3 {
+    margin-bottom: 5px;
+    color: #343a40;
+}
+
+.dish p {
+    color: #495057;
+}
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #f1c40f;
+}
+
+/* Main content section styling */
+.dish-list {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.dish-list h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+/* Dish container styling */
+.dishes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Individual dish card */
+.dish {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dish:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.dish h3 {
+    font-size: 1.4em;
+    color: #343a40;
+    margin-bottom: 5px;
+}
+
+.dish p {
+    font-size: 1em;
+    color: #6c757d;
+}
+
+/* Footer styling */
+footer {
+    width: 100%;
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.extra-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.box1{
+    border: black;
+
+    border-radius: 50px;
+}
