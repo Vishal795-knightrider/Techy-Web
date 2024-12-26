@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Appetizers</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:gray;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Dish List Section */
+        .dish-list {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .dish-list h2 {
+            margin-bottom: 20px;
+        }
+
+        .dishes {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .dish {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 250px;
+        }
+
+        .dish:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .dish img {
+            width: 100%;
+            height: auto;
+        }
+
+        .dish h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .dish p {
+            margin: 0 10px 15px;
+            color: #555;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
+
 <body>
     <!-- Header Section -->
     <header>
@@ -20,30 +105,30 @@
 
     <!-- Dish List Section -->
     <section class="dish-list">
-        <h2> Appetizers</h2>
+        <h2>Our Appetizers</h2>
         <div class="dishes">
             <div class="dish">
                 <h3>Spring Rolls</h3>
                 <p>Delicious crispy rolls filled with veggies. ₹100</p>
-                <img src="https://www.biscuitsandburlap.com/wp-content/uploads/2020/10/pimento-cheese-appetizers-rec-card-feature.jpg" height="200">
+                <img src="https://www.biscuitsandburlap.com/wp-content/uploads/2020/10/pimento-cheese-appetizers-rec-card-feature.jpg" alt="Spring Rolls">
             </div>
             <div class="dish">
                 <h3>Garlic Bread</h3>
                 <p>Warm, buttery garlic bread. ₹80</p>
-                <img src="https://cookingupmemories.com/wp-content/uploads/2023/08/Stuffed-Garlic-Bread-11.jpg" height="200">
+                <img src="https://cookingupmemories.com/wp-content/uploads/2023/08/Stuffed-Garlic-Bread-11.jpg" alt="Garlic Bread">
             </div>
             <div class="dish">
                 <h3>Bruschetta</h3>
                 <p>Toasted bread with tomatoes and herbs. ₹120</p>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQZlEQcuxdS9Cp5MVsuxtYigZMnxMPn656ZQ&s" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQZlEQcuxdS9Cp5MVsuxtYigZMnxMPn656ZQ&s" alt="Bruschetta">
             </div>
-            <!-- Add more dishes as needed -->
         </div>
     </section>
 
     <!-- Footer Section -->
-    <footer>
+    <!-- <footer>
         <p>&copy; 2024 [Your Restaurant Name]. All rights reserved.</p>
-    </footer>
+    </footer> -->
 </body>
+
 </html>
